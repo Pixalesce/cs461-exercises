@@ -74,7 +74,8 @@ fun LemonButton(modifier: Modifier = Modifier) {
         Button(
             onClick = { setNextImage() },
             shape = RoundedCornerShape(24.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color(200, 235, 250))
+//            colors = ButtonDefaults.buttonColors(containerColor = Color(200, 235, 250))
+            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer) // using colour from material theme
         ) {
             Image(
                 painter = painterResource(lemonImages[state]),
