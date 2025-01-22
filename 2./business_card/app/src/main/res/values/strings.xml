@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Business Card</string>
+
+    <string name="name">Basil Wee</string>
+    <string name="title">Full Stack Software Developer</string>
+
+    <string name="mobile">+65 84938386</string>
+    <string name="github">github.com/pixalesce</string>
+    <string name="email">basil.wee.2022@scis.smu.edu.sg</string>
+
+    <string name="icon_mobile">Phone Number</string>
+    <string name="icon_github">Github</string>
+    <string name="icon_email">Email Address</string>
+</resources>
